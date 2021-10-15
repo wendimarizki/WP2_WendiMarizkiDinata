@@ -13,7 +13,7 @@
                 </th>
             </tr>
             <tr>
-                <td colspa="3">
+                <td colspan="3">
                     <hr>
                 </td>
             </tr>
