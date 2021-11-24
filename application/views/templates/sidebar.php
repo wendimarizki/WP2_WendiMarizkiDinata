@@ -1,5 +1,5 @@
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebardark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
@@ -8,19 +8,19 @@
                 </div>
                 <div class="sidebar-brand-text mx-3">Pustaka Booking</div>
             </a>
-            
+
             <!-- Divider -->
             <hr class="sidebar-divider">
-            
-            
-            
-            <!-- Looping Menu-->
-            
+
+
+
+            <!-- Looping Menu-->    
+
                 <!-- Heading -->
                 <div class="sidebar-heading">
-                    Master Data
+                Master Data
                 </div>
-    
+                
                     <!-- Nav Item - Dashboard -->
                     <li class="nav-item active">
                         <!-- Nav Item - Dashboard -->
