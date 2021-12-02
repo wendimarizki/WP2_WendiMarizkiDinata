@@ -58,13 +58,18 @@ class ModelBuku extends CI_model
 
     public function hapuskategori($where = null)
     {
-        $this->db->Update('kategori', $data, $where);
+        $this->db->delete('kategori', $data, $where);
+    }
+
+    public function updatekategori($where = null, $data = null)
+    {
+        $this->db->update('kategori', $data, $where);
     }
 
     //join
     public function joinKategoriBuku($where)
     {
-        $this->db->select('buku.id_ketagori.kategori.kategori');
+        $this->db->select('buku.id_ketagori,kategori.kategori');
         $this->db->from('buku');
         $this->db->join('kategori','kategori.idbuku.id_kategori');
         $this->db->where($where);
