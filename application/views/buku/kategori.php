@@ -10,7 +10,7 @@
                 </div>
             <?php }?>
             <?= $this->session->flashdata('pesan'); ?>
-            <a href="" class="btn btn-primary mb-3" data-toggle="modal" data-target="#kategoriBaruModal"><i class="fas fafile-alt"></i> Tambah Kategori</a>
+            <a href="" class="btn btn-primary mb-3" data-toggle="modal" data-target="kategoriBaruModal"><i class="fas fa-file-alt"></i> Tambah Kategoriiiiii</a>
             <table class="table table-hover">
                 <thead>
                     <tr>

@@ -20,7 +20,7 @@ class Autentifikasi extends CI_Controller
         ]);
         if ($this->form_validation->run() == false) {
             $data['judul'] = 'Login';
-            $data['user'] = 'Queen';
+            $data['user'] = '';
             //kata 'login' merupakan nilai dari variabel judul dalam array $data dikirimkan ke view aute_header
             $this->load->view('templates/aute_header', $data);
             $this->load->view('autentifikasi/login');
